@@ -1,0 +1,44 @@
+.container {
+  width: 250px;
+  color: #314d3e;
+  padding: 12px;
+  font-size: 14px;
+}
+
+.title {
+  font-weight: bold;
+  text-align: center;
+}
+
+.bookmarks {
+  margin-top: 12px;
+}
+
+.bookmark {
+  display: flex;
+  padding: 8px 0px;
+}
+
+.bookmarks .bookmark:not(:last-child) {
+  border-bottom: 1px solid #cacaca;
+}
+
+.bookmark-controls {
+  flex: auto;
+  text-align: right;
+}
+
+.bookmark-controls img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  transition: all 0.23s ease-in-out;
+}
+
+.bookmark-controls img:hover {
+  scale: 1.07;
+}
+
+.bookmark-controls img:not(:last-child) {
+  margin-right: 8px;
+}
